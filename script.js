@@ -1,19 +1,19 @@
 # calculator.py - A simple buggy calculator
 
 def add_numbers(a, b):
-    # Bug: Missing return statement
+  
     result = a + b
 
 def subtract_numbers(a, b):
-    # Bug: Incorrect operation
+
     return a + b  
 
 def multiply_numbers(a, b):
-    # Bug: Using wrong operator
+    
     return a ** b
 
 def divide_numbers(a, b):
-    # Bug: No check for division by zero
+
     return a / b
 
 def main():
@@ -25,7 +25,7 @@ def main():
     
     choice = input("Enter choice (1/2/3/4): ")
     
-    # Bug: No input validation
+
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
     
@@ -38,7 +38,7 @@ def main():
     elif choice == '4':
         print("Result:", divide_numbers(num1, num2))
     else:
-        # Bug: Missing error message
+
         pass
 
-# Bug: Missing the main() function call
+
