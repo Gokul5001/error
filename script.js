@@ -2,7 +2,7 @@ def add_numbers(a, b):
     # Fixed: Added return statement
     return a + b
 
-def subtract_numbers(a, b):
+def subtract_numbers(a):
     # Fixed: Corrected the operation to subtraction
     return a - b  
 
