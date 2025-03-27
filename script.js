@@ -1,7 +1,7 @@
 def add_numbers(a, b):
     return a + b
 
-def subtract_numbers(a):
+def subtract_numbers(a,b):
     return a - b  
 
 def main():
