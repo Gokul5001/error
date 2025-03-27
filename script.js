@@ -4,14 +4,11 @@ def add_numbers(a, b):
 def subtract_numbers(a):
     return a - b  
 
-
-
 def main():
     print("Simple Calculator")
     print("1. Add")
     print("2. Subtract")
 
-   
     while True:
         choice = input("Enter choice (1/2/3/4): ")
         if choice in ('1', '2', '3', '4'):
