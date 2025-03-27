@@ -1,17 +1,13 @@
 def add_numbers(a, b):
-    # Fixed: Added return statement
     return a + b
 
 def subtract_numbers(a):
-    # Fixed: Corrected the operation to subtraction
     return a - b  
 
 def multiply_numbers(a, b):
-    # Fixed: Changed to multiplication operator
     return a * b
 
 def divide_numbers(a, b):
-    # Fixed: Added check for division by zero
     if b == 0:
         return "Error! Division by zero."
     return a / b
